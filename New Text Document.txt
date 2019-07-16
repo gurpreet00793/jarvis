@@ -1,0 +1,68 @@
+strings:
+
+strings can be created by enclosing characters inside a single quote or double quotes. even triple quotes can be used in python but generally used to represent multiline strings and docstrings .
+
+ex:
+#all of the following are equivalent 
+my_strings ='hello'
+print(my_string)
+
+my_string="hello"
+print(my_string)
+
+my_string='''hello'''
+print(my_string)
+
+#triple quotes string can be extend multiple lines 
+my_string="""hello,welcome to 
+            the world of python"""
+print(my_string)
+
+the index of -1 refers to the last item,-2to the secomd last item and so on.we can access a range of items in a string by using the slicing operator(colon).
+
+ex:-
+str='programiz'
+print('str=',str)
+
+#first character
+print('str[0]=',str[0])
+
+#last character
+print(str[-1]=',str[-1])
+
+#slicing 2nd to 5th character
+print('str[1:5]='str[1:5])
+
+#slicing 6th to 2nd last character
+print('str[5:-2]=',str[5:-2])
+
+
+slicing is done in the way given below
+
+P  Y  T  H  O  N
+0  1  2  3  4  5
+-6 -5 -4 -3 -2 -1
+
+
+Strings are immutable.this means that element of a string cannot be changed once it has assigned .we can simply re assign differnet strings to the same name.
+
+ex:-
+my_string="python"
+my_string[4]="a"
+
+#o/p
+Type error:'str'object does not support item assignment
+
+we cannot delete or remove characters from a string.
+but deleting the string entirely is possible using the keyboard del.
+
+ex:-
+del my string[1]
+o/p:-type error:'str' object doesn't support item deletion.
+
+ex:-
+my_string="welcome to python"
+del my_string
+print(my_string)
+o/p:-Nameeroor: name'my string'is not defned  
+

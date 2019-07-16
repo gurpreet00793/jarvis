@@ -1,0 +1,224 @@
+Set methods:-
+
+1.clear()- removes all the elemenst from the sets. 
+example-A={1,2,3,4}
+        A.clear()
+	print(A)
+	#output-set({})
+
+2.difference()-Returns the difference of two or more sets as a new set
+	ex:-
+	A={1,2,3,4}
+	B={2,3,9}
+	PRINT(A-B)
+	#{1,4}
+	PRINT(B-A)
+	#{9}
+
+3.DIFFERENCE_UPDATE()-REMOVES ALL THE ELEMENT OF ANOTHER SET FROM THIS SET.
+	EX:-
+	A={'a','c','g','d'}
+	B={'c','f','g'}
+
+	result=A.difference_update(B)
+
+print('A=',A)
+print('B=',B)
+print('result=',result)
+
+4.discard()-removes an element from set if it is a member.
+(do nothing if the element is not in set)
+
+ex:-numbers={2,3,4,5}
+number.discard(3)
+print('numbers=',numbers)
+
+numbers.discard(10)
+
+
+5.intersection()-returns the intersection of 
+
+
+b={2,3,4,9}
+print(A.intersection(b))
+
+6.isdisjoint()-returns true if two sets have a null(no common element)intersction.
+
+ex:-
+A={1,2,3,4}
+B={5,6,7}
+C={4,5,6}
+
+print('are A and B disjoint?',A.isdisjoint(b))
+print('are A and C disjoint?',A.isdisjoint(c))
+
+7. issubset()
+
+reurns true if another set contains this set
+
+ex:-
+a{1,2,3}
+B{1,2,3,4,5}
+c={1,2,4,5}
+
+#returns true
+print(A.isssubset(B))
+
+#retirns true
+print(C.subset(b))
+
+8.POP()-removes and returns an arbitrary set element .raise key error if set is empty
+ex:-
+A{'a','b','c','d'}
+
+print('returns value is',A.pop())
+print('A=',A)
+note-it removes elements randomly.
+
+9.remove()-remove an element from the set.if element is not a member,raise a keyerror
+
+ex:-
+A={'a','b','c','d'}
+A.remove('b')
+print('A=',A)
+
+note:-differnec b/w discard() and remove()
+
+a particular item can be removed from the set using menthods,discard() and removes().
+
+the only difference between the two is that ,while using discard() if the item does not exist in the set,it remains unchanged .but remove() will raise an error in such condition
+
+LIST method:-
+
+1.append():-add an item to the end of the list.
+syntax:-append(x)
+
+ex:-
+fruits=['orange','apple','pear','banana','kiwi','apple','banana']
+fruits.append('graphes')
+print(fruits)
+
+output:-graphes will be added in fruits
+
+Count():-returns the number of times x appears in the list.
+
+3.list.extend(iterable)
+extend the list by appending all the items from the iterable.
+
+4.list.insert(i,x)
+insert an item at a given position.
+
+5.list.remove(x)
+removes the first items from the list whose value is equal to x.
+
+6.list.pop([i])
+remove the item at the given position in the list,and returns it.
+
+7.list.count(x)
+returns returns the number of times x appears in the list.
+
+8.list.reverse()
+reverse the element of the list in place
+
+9.list.sort()
+sort the items of the list
+
+10.list.index(x)
+returns the index of the first item is equal to x
+
+ ex:-
+a=["hello",5,8]
+print(a)
+
+a.append(3)
+print(a)
+
+a.extend("python")
+print(a)
+
+a.insert(2,"program")
+print(a)
+
+a.remove("h")
+print(a)
+
+a.pop(0)
+print(a)
+
+a.pop()
+print(a)
+
+b=a.count(5)
+print(b)
+
+a.reverse()
+print(a)
+
+a=[4,5,7,2,5]
+a.sort()
+print(a)
+
+print(a.index(7))
+
+TUPPLE:-
+a tupple is a collection which is ordered and unchangable .in pyhton tuples are written with round brackets.
+
+tuple is an ordres sequence of items same as list.the only difference is that tuples are immutable.tuples once created cannot be modified.
+
+tuples are used to write protect and are usuall faster than list as it cannot change dynamically
+
+ex:-
+t=(5,'program',1+3j)
+print(t)
+print("t[1]=",t[1])
+print("t[0:3]=',t[0:3])
+
+ex:-
+t=(5,'program',1=3j)
+#generate error
+#tuple are immutable
+t[0]=10
+print(t)
+
+ex:-
+#nested tuple
+my_tuple=("mouse,[8,4,6],(1,2,3))
+
+#output:("mouse",[8,4,6],(1,2,3))
+print(my_tuple)
+print(my_tuple[0][3])
+print(my_tuple[1][1])
+
+ex:-
+t=3,4.6,"dog"
+print(t)
+
+ex:-
+t=('p','e','r','m','i','t')
+print(my_tuple[0])
+print(my_tuple[5])
+
+tuple function:-
+cout(x)-returns the number of items x
+ex:-
+t=('p','e','r','m','i','t','e')
+print(t.count('e'))
+
+index(x)-returns the index of the first item that is equal to x.
+t=('p','e','r','m','i','t','e')
+print(t.index('e'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

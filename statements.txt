@@ -1,0 +1,107 @@
+Statements:-
+
+if statements :-
+an if statement consists of a boolean experssion followed by one or more statements.
+
+syntax:-
+if expression:
+   statements(s)
+
+ex:-
+if var1=100
+if var1:
+print ("1-got a true expression value ")
+print(var1)
+
+var2=0
+if var2:
+print("2-got a true expression value")
+print(var2)
+prnt("good bye!")
+
+if....else statement:-
+
+an if statement can be followed by an optional else statement which excecutes when the boolean expression is False
+
+syntax:-
+if expression
+ statements(s)
+else:
+ statements(s)
+
+ex:-
+var1=100
+if var1:
+    print("1 - got a true expression value")
+    
+
+
+elif statement:-
+
+the elif statement allows you to check multiple expressions for true and excecutes to block of code as son as one of the condition evaluates to true
+
+Syantax:-
+if expression:
+statements(s)
+elif expression2:
+statements(s)
+elif expression3:
+statements(s)
+else
+statement(s)
+
+ex:-
+  var=100
+ if var==200:
+print('1-got a true expression value')
+print(var)
+
+
+elif var==150:
+print('2-got a true expression value')
+print(var)
+
+elif var==100:
+print('3-got a true expression value')
+print(var)
+
+else:
+print('4-got a false expression')
+print(var)
+
+4.nested -if statement:-
+
+you can use one if or else if statement inside another if or else  if statements (s).
+(syntax):-
+
+if expression1:
+statements(s)
+  if expression2:
+  statement(s)
+  elif expression3:
+  statement(s)
+  elif statement4:
+    statement(s)
+else:
+statement(s)
+else:
+statement(s)
+
+
+ex:-
+  var=100
+   if var<200:
+   print('expression values is less than 200')
+   if var==150:
+   print('which is 150')
+   elif var==100:
+   print('which is 100')
+   elif var==145:
+   print('which is 145')
+else:
+  print('neighter 150,145&100')
+else:
+print('other number')
+
+ 
+

@@ -1,0 +1,75 @@
+operators:-
+
+operators are special symbols in python that carry out arthimatic and logical computations.the value that the operator operate is called operand.
+
+python divides the operators in following types:-
+1.arthimatic operations
+2.assignment operators
+3.comparison operator
+4.logical operator
+5.identity operator
+6.membership operator
+7.bitwise operator
+
+1.arthimatic operator= +,-,*,/, modulus=x%y , floor division- if the divided value comes in point it will remove the value behind points like 2.30=2
+
+eg.
+a=21
+b=10
+c=0
+
+c=a+b
+
+print("value of a is",a)
+print("value of b is",b)
+print("value of c is",c)
+
+c=a%b
+print("value of c is",c)
+
+a=2
+b=3
+c=a**b
+print("value of c",c)
+
+a=10
+b=3
+c=a//b
+print("value of c",c)
+
+2.assingnment operator
+
+they are used in python to assign the value   to variable
+
+c=a+b 
+
++=add and
+
+-= it subracts right operand to left operand and stores the value in left operand 
+
+*= it multiply right operand with left operand and assign the value to left operand
+
+/= [c/=0 is equal to c=c/a]
+
+%= [c%=a is equal to c=c%a]
+
+
+**= [c**=a is equal to c=c**a]
+
+//=[c//=a is equal to c=c//a]
+
+AND OPERATOR->  $= [x$=5 is equal to x=x$5]
+
+OR OPERATOR->   |=[x|=5 is equal to x=x|5]
+
+XOR OPERATOR->  ^=[x^=5 is equal to x=x^5]
+
+RIGHT SHIFT->   >>=[x>>=5 is equal to x=x>>5]
+
+LEFT SHIFT->    <<=[x<<5 is equal to x=x<<5]
+
+
+
+
+
+

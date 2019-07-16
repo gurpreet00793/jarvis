@@ -1,0 +1,98 @@
+a=21
+b=10
+c=0
+
+c=a+b->31
+c+=a
+print("value of c is",c)->52
+
+c*=a       1092
+c/=a       .
+c%=a       2
+c**=a      2097152
+c//=a      99864
+
+
+c=52
+c&=a       20
+c|=a       21
+c^=a       33
+c>>=a      13   (c/2a) 13
+c<<=a      52   (c*2^a)52
+
+3.comparison operator -it only response in terms of true and false
+
+<
+>
+<=
+>=
+!=
+==
+
+4.logical operator 
+
+and 
+or 
+not
+
+
+5.identical operator
+
+identity operator is and is not are the identity operator in python .they are used to check if the two values (or variables)are located on the same part of the memory. two variables that are equal does not imply that they are identical.
+
+is:- true if the operand are identical (refer to same object)
+x is true
+
+is not:-true if the operand are not identical (do not refer to the same object) x is not true
+
+x1=5
+y1=5
+x2='hello'
+y2='hello'
+x3=[1,2,3]
+y3=[1,2,3]
+
+
+#output:false
+print(x1 is not y1)
+
+#output:true
+print(x2 is y2)
+
+#output:false #bcuz list contains different memory
+print(x3 is not y3)
+
+
+6.membership operator
+
+in and not in are the membership operators in python.they are used to test whether a value or variable is found in a sequence(string,list,tuple,set and dictionary).
+
+in a dictionary we can only test for presence of key,not the value.
+
+operator meaning example:-
+
+in true if value /variable is found in the sequence #5 in x
+not in true if value/variable is not found in sequence  #5 not in x
+
+x='hello world'
+y={1:'a',2:'b'}
+
+#output:true
+print('H' in x)
+
+#output:true
+print('hello not in x)
+
+#output:true
+print(1 in y)
+
+#output:false
+print('a' in y)
+
+7.bitwise operator
+
+& # bitwise 'AND'
+| # bitwise regular OR
+^ # bitwise exclusive or
+~ #  complement
+
